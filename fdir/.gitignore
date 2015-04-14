@@ -1,0 +1,6 @@
+# 过滤文件夹Debug,Release,obj,output
+Debug/
+Release/
+obj/
+output/
+
