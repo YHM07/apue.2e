@@ -42,6 +42,9 @@ $(OBJDIR)/%.o:$(SRC)
 
 
 
-.PHONY : clean 
+.PHONY : clean move
 clean:
 	rm $(OBJDIR)/*.o $(EXEC)
+move:
+	find . -maxdepth 1 -type f -name "*.c" | \
+		xargs -n1 -i{} mv {} $(SRCDIR)/{}pp 
