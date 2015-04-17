@@ -1,18 +1,6 @@
-#ch4fdir Makefile
-# OUTPUT := ../output
-# OBJS := $(OUTPUT)/umask.o
-# a.out: $(OBJS)
-# # gcc -o ../output/a.out $(OBJS)
-# 	gcc -o a.out $<
-# 
-# $(OUTPUT)/umask.o: umask.c
-# 	gcc -c -o $(OUTPUT)/umask.o umask.c 
-# 
-# 
-# 
-# .PHONY : clean
-# clean:
-# 	rm $(OUTPUT)/*.o 
+# filename: Makefile
+# author: H.M.Yang,(hmyang07@gmail.com)
+# date: Sun Apr 12 CST 2015
 
 
 EXEC   := a.out
