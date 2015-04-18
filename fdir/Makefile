@@ -16,7 +16,7 @@ LIBS   := apue
 vpath %.c $(SRCDIR)
 vpath %.h $(INCDIR)
 
-CFLAGS := -Wall -O1 
+CFLAGS := -Wall -O1 -g
 CFLAGS += $(addprefix -I, $(INCDIR)) 
 
 LDFLAFS := $(addprefix -L,$(LIBDIR))
