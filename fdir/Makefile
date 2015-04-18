@@ -1,8 +1,36 @@
 # filename: Makefile
 # author: H.M.Yang,(hmyang07@gmail.com)
 # date: Sun Apr 12 CST 2015
-
-
+# .
+# ├── a.out
+# ├── doc
+# │   └── README
+# ├── inc
+# │   └── apue.h
+# ├── lib
+# │   ├── filetype.c
+# │   ├── libapue.a
+# │   ├── Makefile.am
+# │   ├── Makefile.in
+# │   └── myaccess.c
+# ├── ls.c
+# ├── Makefile
+# ├── output
+# │   └── ls.o
+# └── src
+#     ├── chmod.cpp
+#     ├── chown.cpp
+#     ├── main.cpp
+#     ├── readlink_example.cpp
+#     ├── rename.cpp
+#     ├── symlink.cpp
+#     ├── umask.cpp
+#     ├── unlinked.cpp
+#     └── utime.cpp
+# 
+# 5 directories, 20 files
+# 
+# 
 EXEC   := a.out
 
 OBJDIR := output
